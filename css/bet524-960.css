@@ -440,6 +440,7 @@
 }
 #apDiv93 {
     position: absolute;
+    display: none;
 }
 .close {
     right: 262px;
