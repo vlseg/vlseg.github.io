@@ -6,19 +6,16 @@ body {
 .cursor {
   cursor: pointer;
 }
-
 #apDiv8 {
   left: 0 !important;
   margin: 0 auto;
 }
-
 #apDiv3 {
   /*display: none;*/
   font-size: 2.6vw;
   left: auto;
   top: 0;
 }
-
 #apDiv105 {
   width: 91vw;
   line-height: 40px;
@@ -27,21 +24,18 @@ body {
   text-align: left;
   font-size: 6.8vw;
 }
-
 #apDiv86 {
   float: none;
   width: 100vw;
   left: 0;
   position: absolute;
 }
-
 #apDiv89 {
   /*display: flex;*/
   /*justify-content: center;*/
   width: 100vw;
   left: 0;
 }
-
 #plt {
   max-width: 324px;
   left: 0;
@@ -50,7 +44,6 @@ body {
   /*top: -27px !important;*/
   /*background: #FFFF00;*/
 }
-
 #apDiv147 {
   width: 244px !important;
   font-size: 16px !important;
@@ -58,7 +51,6 @@ body {
   top: 83px !important;
   line-height: 24px;
 }
-
 #pusk {
   position: relative !important;
   top: 20px !important;
@@ -66,29 +58,24 @@ body {
   left: 0 !important;
   margin: 0 auto;
 }
-
 #apDiv148 {
   right: 13px;
   top: 15px;
 }
-
 #apDiv149 {
   left: 13px;
   top: 24px;
 }
-
 #apDiv132 {
   left: 34px;
   width: 308px;
   background-size: 260px 200px;
   background-repeat: no-repeat;
 }
-
 #apDiv143 {
   left: 8px;
   width: 240px;
 }
-
 #apDiv116 {
   width: 261px;
   font-size: 14px;
@@ -96,37 +83,31 @@ body {
   text-align: center;
   left: 33px;
 }
-
 #apDiv144 {
   left: 34px;
   width: 246px;
   overflow-y: scroll;
 }
-
 #apDiv5 {
   width: 98%;
 }
-
 #apDiv131 {
   left: 8px !important;
   width: 203px !important;
   cursor: pointer;
 }
-
 .f1, .f2 {
   width: 279px !important;
   left: 3vw !important;
   height: 249px !important;
   top: -18px !important;
 }
-
 .sol {
   width: 256px !important;
   left: 6vw !important;
   height: 221px !important;
   /*top: -194px !important;*/
 }
-
 .zg146 {
   left: 32px;
   top: 48px;
@@ -134,69 +115,56 @@ body {
   height: 211px;
   border: none;
 }
-
 #apDiv121 {
   width: 277px;
   left: 25px;
 }
-
 #apDiv122 {
   right: 11px;
 }
-
 .fon-img {
   width: 324px;
   cursor: pointer;
 }
-
 .fon {
   width: 75vw;
 }
-
 .zg14:hover::after {
   left: -16px !important;
 }
-
 .zg6:hover::after {
   left: -178px !important;
 }
-
 #sec1 {
   top: 20px;
 }
-
 #apDiv41 {
   width: 100vw;
 }
-
 #apDiv38 {
   text-align: center;
   width: 100vw;
-  font-size: 1.8vw;
+  font-size: 2.4vw;
 / / 2
 }
-
 #apDiv46 {
   position: relative;
   left: 0;
   top: 237px;
   margin: 0 auto;
 }
-
 #apDiv44 {
   /*position: relative;*/
   top: 146px;
   left: 0;
   width: 100vw;
 }
-
 #apDiv452 {
   margin: 0 auto;
   top: -38px;
   width: 100vw;
   /*height: 152px;*/
 }
-
 #apDiv45 {
   border-radius: 50%;
   margin: 0 auto;
@@ -216,40 +184,64 @@ body {
   background-position-y: -130px;
   background-repeat: no-repeat;
 }
-
 #apDiv45 > img {
   border-radius: 50%;
   width: 223px;
 }
-
 #apDiv73 {
   left: 0;
+  /*right: 0;*/
   top: 25px;
   width: 67vw;
 }
 
 #apDiv31 {
-  top: 481px;
-/ / 513 px;
-  left: 20px;
+  top: 13px;
+  left: 10px;
+  width: 200px;
+  height: 60px;
+  border-radius: 0px 15px 15px 0px;
+}
+#apDiv541 {
+  left: 35px;
+  top: 20px;
+  height: 8px;
+  width: 63px;
+}
+#apDiv551 {
+  left: 35px;
+  top: 30px;
+  height: 8px;
+  width: 63px;
+}
+#apDiv651 {
+  left: 35px;
+  top: 41px;
+  height: 8px;
+  width: 63px;
+}
+#apDiv40 {
+  top: 17px !important;
+  height: 78px !important;
+  font-size: 7px!important;
+  line-height: 11px!important;
 }
 
 #apDiv28 {
   /*text-align: center !important;*/
-  width: 32vw;
-/ / 100 vw;
+  width: 69vw;
   left: auto;
-  top: -13px;
-/ / 353 px;
-  border: 1px solid;
+  top: auto;
+  /*border: 1px solid;*/
   border-radius: 15px;
-  right: -32vw;
+  right: -16vw;
   height: 55px;
   color: black;
-  background-color: #DCC5EF;
+  background-color: transparent;
+  bottom: -211px;
+  font-size: 2.6vw;
   /*padding: 0 5px;*/
 }
-
 #apDiv28 > h4 {
   padding-right: 5px;
 / / 25;
@@ -257,25 +249,24 @@ body {
 / / 25;
   text-align: center;
 }
-
 #rot {
   width: 193px !important;
   height: 153px !important;
   /*margin-top: 38px;*/
 }
-
 #apDiv42 {
   top: -13px;
-  width: auto;
+  width: 35vw;
   margin: 0 5px;
   padding: 7px 5px 16px 5px;
   overflow: scroll;
   word-wrap: break-word;
-  height: 30px;
-  right: 2px;
+  height: 43px;
+  right: auto;
+  left: 59vw;
+  font-size: 10px;
   border-right: 15px;
 }
-
 #apDiv71 {
   width: 100vw;
   z-index: 100;
@@ -287,7 +278,6 @@ body {
   background-position-x: center;
   top: 103px;
 }
-
 #apDiv47 {
   width: 357px;
   height: 252px;
@@ -295,7 +285,6 @@ body {
   left: 0;
   top: 155px;
 }
-
 #apDiv47 > img {
   position: relative;
   width: 387px;
@@ -303,7 +292,6 @@ body {
   z-index: 12;
   top: -13px;
 }
-
 #apDiv60 {
   position: absolute;
   left: 16%;
@@ -313,29 +301,24 @@ body {
   z-index: 16;
   border-radius: 1460px/863px;
 }
-
 #apDiv59 {
   top: 111px;
   left: 14px;
 }
-
 #apDiv62 {
   left: 38px;
-  top: 364px;
+  top: 414px;
 }
-
 #apDiv65 {
   left: auto;
   top: 91px;
   right: 20px;
 }
-
 #apDiv67 {
   left: auto;
   top: 389px;
   right: 20px;
 }
-
 #apDiv48 {
   padding: 0 5px;
   left: 0;
@@ -343,30 +326,35 @@ body {
   width: 247px;
   font-size: 2em;
 }
-
+.text {
+  width: 34vw;
+  height: 23vw;
+}
 .text1 {
   left: 4.5vw !important;
   top: 2.5vw !important;
-  width: 19.5vw !important;
-  height: 10.6vw !important;
+  width: 25.5vw !important;
+  height: 14.6vw !important;
   overflow-y: scroll !important;
   text-align: left;
   background: #e1b15f;
   padding: 2px 0 0 3px;
   border-bottom: 1px solid #a26112;
+  border-start-start-radius: 9px;
 }
-
 .text2 {
   top: auto !important;
-  right: -4.4vw !important;
+  right: -5.4vw !important;
   bottom: -2.5vw !important;
-  font-size: 1.8vw !important;
-  width: 19.5vw !important;
+  font-size: 2.4vw !important;
+  width: 25.5vw !important;
   background: #e1b15f;
   padding-right: 3px;
   height: 3.2vw !important;
 }
-
+#apDiv70 {
+  top: 44px;
+}
 #apDiv49 {
   left: 22px;
   top: 97px;
@@ -375,20 +363,20 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 #apDiv72 {
+  top: 521px;
   left: auto;
   font-size: 2.6vw;
   width: 27vw;
-  height: 50px;
+  height: 42px;
   z-index: 49 !important;
-  top: 12px;
+  /*top: 12px;*/
   color: #846de0;
   border: 2px solid #8771da;
-  right: 6px;
+  right: 25px;
   padding-left: 12px;
+  background: #eacde5;
 }
-
 #apDiv72 > img {
   width: 5vw;
   height: 3vw !important;
@@ -398,13 +386,11 @@ body {
   top: 13px !important;
   right: 10px;
 }
-
 #apDiv74 {
   left: 24px;
   margin: unset;
   top: -11px;
 }
-
 #apDiv117 {
   left: 49px;
   top: 56px;
@@ -414,29 +400,24 @@ body {
   padding-right: 3px;
 
 }
-
 #apDiv12 {
   left: auto;
   width: 100%;
   height: 103px;
 }
-
 #apDiv22 {
   left: -13%;
   top: -58px;
 }
-
 #apDiv23 {
   position: relative;
   left: auto;
   top: 50px;
   margin: 0 auto;
 }
-
 #apDiv108 {
   display: none;
 }
-
 #apDiv85 {
   position: relative;
   /*left: auto;*/
@@ -450,7 +431,6 @@ body {
   background: url(../img/svitok_k62.png) no-repeat;
   display: block;
 }
-
 #apDiv81 {
   width: 343px;
   position: relative;
@@ -464,13 +444,11 @@ body {
   margin: 0 auto;
   z-index: 54;
 }
-
 #apDiv88 {
   width: 289px;
   height: 301px;
   padding-left: 0;
 }
-
 #apDiv88 > p {
   height: 285px;
   overflow: scroll;
@@ -479,45 +457,37 @@ body {
   padding-right: 9px;
   padding-left: 10px;
 }
-
 #apDiv95 {
   left: -6px;
   top: 1.3vw;
   width: 204px;
 }
-
 #apDiv95 > h4 {
   font-size: 2.1vw !important;
   margin-top: 2px;
 }
-
 #apDiv96 {
   font-size: 20px;
   top: 8px;
   width: 202px;
 }
-
 #apDiv92 {
   display: none;
   left: 137px;
   top: 6px;
 }
-
 #apDiv92 > img {
   width: 13px;
   height: 13px;
 }
-
 #apDiv94 {
   left: 268px;
   top: 13px;
 }
-
 #apDiv93 {
   position: absolute;
   display: none;
 }
-
 /*
 #apDiv114 {
     display: none;
@@ -526,20 +496,17 @@ body {
 .zg5:hover::after {
   display: none;
 }
-
 .close {
   right: 262px;
   top: -22px;
 }
-
 .wrapper {
   top: -8px;
 }
-
 .wrap85 {
   width: 74.8vw;
 }
-
+/*
 footer {
   width: 96vw;
-}
+}*/

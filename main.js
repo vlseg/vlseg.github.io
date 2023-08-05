@@ -179,7 +179,6 @@ function tx8(kv1) {
         $('#apDiv22').show(600, function () {})
         document.getElementById("apDiv2").style.display = 'none'
         aa1 = 'pr6'
-
       } else {
         aa1 = 'pr1'
         tx1()
@@ -658,9 +657,10 @@ function tx1(n1) {
 
     if (aa1 == 'pr6') {
       document.getElementById('apDiv651').style.display = 'none'
-      document.getElementById('apDiv551').style.display = 'none'
-      document.getElementById('apDiv541').style.height = '24px'
-      document.getElementById('apDiv541').style.top = '64px'
+      document.getElementById('apDiv541').style.display = 'none'
+      // document.getElementById('apDiv551').style.display = 'none'
+      // document.getElementById('apDiv541').style.height = '24px'
+      // document.getElementById('apDiv541').style.top = '64px'
       document.getElementById('sts1').innerHTML = '->'
       document.getElementById('sts2').innerHTML = '№...'
       document.getElementById('sts3').innerHTML = '->'
@@ -811,9 +811,15 @@ function tx1(n1) {
 
         }
         var bv1 = Math.floor(Math.random() * 3 + 1 / 2)
+        const mult = 2
+        document.getElementById('apDiv541').style.width = bv11 * mult + 'px'
+        document.getElementById('apDiv551').style.width = bv21 * mult + 'px'
+        document.getElementById('apDiv651').style.width = bv31 * mult + 'px'
+/*
         document.getElementById('apDiv541').style.width = bv11 * 5 + 'px'
         document.getElementById('apDiv551').style.width = bv21 * 5 + 'px'
         document.getElementById('apDiv651').style.width = bv31 * 5 + 'px'
+*/
       }
 
       tim1 = setInterval(us2, 100)
@@ -921,27 +927,36 @@ function tx1(n1) {
       return 1 - d(1 - progress)
     }
 
-    document.getElementById('apDiv541').style.height = '23px'
+    const widthScreen = window.innerWidth
+    console.log('DDD', window.innerWidth)
+
+    let heightLine = '23px'
+    if (window.innerWidth < 526) {
+      heightLine = '8px'
+    }
+
+    document.getElementById('apDiv541').style.height = heightLine
     if (aa1 == 'pr5') {
       document.getElementById('apDiv551').style.height = '0'
     } else {
-      document.getElementById('apDiv551').style.height = '23px'
+      document.getElementById('apDiv551').style.height = heightLine
     }
-    document.getElementById('apDiv651').style.height = '23px'
+    document.getElementById('apDiv651').style.height = heightLine
 
     if (aa1 == 'pr6') {
-      document.getElementById('apDiv541').style.height = '24px'
+      document.getElementById('apDiv541').style.height = heightLine
       document.getElementById('apDiv551').style.height = '0px'
       document.getElementById('apDiv651').style.height = '0px'
     }
     var from = 0
-    var to = 200
+    var to = 8 //200
     var duration = 3000
     var start = new Date().getTime()
     setTimeout(function () {
         var now = (new Date().getTime()) - start // Текущее время
         var progress = now / duration
         var result = (to - from) * delta(progress) + from
+        console.log('>>', to, from, result)
         document.getElementById('apDiv541').style.width = result + "px"
         document.getElementById('apDiv551').style.width = result + "px"
         document.getElementById('apDiv651').style.width = result + "px"

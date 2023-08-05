@@ -40,7 +40,7 @@ body {
   background-size: cover;
   /*position: relative;*/
   overflow-x: hidden;
-  /*position: fixed;*/
+  position: fixed;
   width: -webkit-fill-available;
   width: -moz-available;
   /*border: 1px solid red;*/
@@ -131,8 +131,6 @@ header {
   border: 1px solid;
   position: relative;
   width: auto;
-/ / 100 vw;
-/ / 960 px;
   max-width: 960px;
   /*min-width: 360px;*/
   padding-top: 0px;
@@ -782,11 +780,11 @@ header #apDiv24 {
 
 .content #apDiv38 #apDiv31 #apDiv40 {
   position: absolute;
-  top: 36px;
+  top: 30px;
   height: 117px;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 30px;
   font-weight: bold;
   text-decoration: none;
   width: 47px;
@@ -1858,6 +1856,9 @@ width="451" height="734" border="0"
   font-family: "Comic Sans MS", cursive;
   font-size: 16px;
   color: #4C2C0B;
+}
+#apDiv123:hover, #apDiv124:hover, #apDiv146:hover, #apDiv126:hover {
+  text-decoration: underline;
 }
 
 #apDiv124 {
