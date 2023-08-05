@@ -1,171 +1,203 @@
 .cursor {
-    cursor: pointer;
+  cursor: pointer;
 }
+
 #sec1 {
-    width: 100vw;
-    z-index: 0;
-    top: 20px;
+  width: 100vw;
+  z-index: 0;
+  top: 20px;
 }
+
 #apDiv8 {
-    margin: 0 auto;
-    left: 0 !important;
+  margin: 0 auto;
+  left: 0 !important;
 }
+
 #apDiv85 {
-    display: none;
+  display: none;
 }
+
 #apDiv93 {
-    font-size: 1.7vw;
-    left: auto;
-    top: 2px;
-    width: 31vw;
-    right: 10px;
+  font-size: 1.7vw;
+  left: auto;
+  top: 2px;
+  width: 31vw;
+  right: 10px;
 }
+
 #apDiv93 > h4 {
-    text-align: center;
+  text-align: center;
 }
+
 #apDiv93 > p {
-    overflow-y: scroll;
-    height: 292px;
-    margin-top: -2vw;
-    margin-bottom: 8px;
-    position: relative;
-    padding-left: 23px;
-    padding-right: 5px;
+  overflow-y: scroll;
+  height: 292px;
+  margin-top: -2vw;
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 23px;
+  padding-right: 5px;
 }
+
 #apDiv93 > h5 {
-    text-align: center;
+  text-align: center;
 }
+
 #apDiv38 {
-    text-align: center;
-    width: 100vw;
-    font-size: 10px; //1.8vw;
-    left: 0;
+  text-align: center;
+  width: 100vw;
+  font-size: 10px;
+/ / 1.8 vw;
+  left: 0;
 }
+
 #apDiv46 {
-    position: absolute;
-    left: 0;
-    top: 237px;
-    width: 100vw;
-    /*margin: 0 auto;*/
+  position: absolute;
+  left: 0;
+  top: 237px;
+  width: 100vw;
+  /*margin: 0 auto;*/
 }
+
 #apDiv31 {
-    top: 481px; //513px;
-    left: 20px;
+  top: 481px;
+/ / 513 px;
+  left: 20px;
 }
+
 #apDiv73 {
-    left: 0;
-    top: 25px;
-    width: 67vw;
+  left: 0;
+  top: 25px;
+  width: 67vw;
 }
+
 #apDiv74 {
-    top: -11px;
+  top: -11px;
 }
+
 #apDiv59 {
-    top: 91px;
+  top: 91px;
 }
+
 #apDiv62 {
-    left: 38px;
-    top: 327px;
+  left: 38px;
+  top: 327px;
 }
+
 #apDiv65 {
-    left: auto;
-    top: 91px;
-    right: 20px;
+  left: auto;
+  top: 91px;
+  right: 20px;
 }
+
 #apDiv67 {
-    left: auto;
-    top: 389px;
-    right: 20px;
+  left: auto;
+  top: 389px;
+  right: 20px;
 }
+
 #apDiv47 {
-    width: 357px;
-    height: 252px;
-    margin: 0 auto;
-    left: 0;
-    top: 155px;
+  width: 357px;
+  height: 252px;
+  margin: 0 auto;
+  left: 0;
+  top: 155px;
 }
+
 #apDiv47 > img {
-    position: relative;
-    width: 387px;
-    height: 264px;
-    z-index: 12;
-    top: -13px;
+  position: relative;
+  width: 387px;
+  height: 264px;
+  z-index: 12;
+  top: -13px;
 }
+
 #apDiv60 {
-    position: absolute;
-    left: 16%;
-    top: 33px;
-    width: 257px;
-    height: 167px;
-    z-index: 16;
-    border-radius: 1460px/863px;
+  position: absolute;
+  left: 16%;
+  top: 33px;
+  width: 257px;
+  height: 167px;
+  z-index: 16;
+  border-radius: 1460px/863px;
 }
+
 #apDiv48 {
-    padding: 0 5px;
-    left: 0;
-    top: 59px;
-    width: 247px;
-    font-size: 2em;
+  padding: 0 5px;
+  left: 0;
+  top: 59px;
+  width: 247px;
+  font-size: 2em;
 }
+
 .text {
-    width: 189px;
-    height: 126px;
-    z-index: 49 !important;
-    /*border: 1px solid;*/
+  width: 189px;
+  height: 126px;
+  z-index: 49 !important;
+  /*border: 1px solid;*/
 }
+
 .text1 {
-    left: 27px !important;
-    top: 25px !important;
-    width: 134px !important;
-    height: 70px !important;
-    overflow: scroll !important;
-    text-align: left;
-    background: #e1b15f;
-    padding: 2px 0 0 3px;
-    border-bottom: 1px solid #a26112;
+  left: 27px !important;
+  top: 25px !important;
+  width: 134px !important;
+  height: 70px !important;
+  overflow: auto !important;
+  text-align: left;
+  background: #e1b15f;
+  padding: 2px 0 0 3px;
+  border-bottom: 1px solid #a26112;
 }
+
 .text2 {
-    top: auto !important;
-    right: -27px !important;
-    bottom: -25px !important;
-    font-size: 12px !important;
-    width: 134px !important;
-    background: #e1b15f;
-    padding-right: 3px;
+  top: auto !important;
+  right: -27px !important;
+  bottom: -25px !important;
+  font-size: 12px !important;
+  width: 134px !important;
+  background: #e1b15f;
+  padding-right: 3px;
 }
+
 #apDiv49 {
-    left: 22px;
-    top: 97px;
-    width: 222px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  left: 22px;
+  top: 97px;
+  width: 222px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
 #apDiv3 {
-    position: absolute;
-    top: 5.9vw;
-    text-align: center;
-    width: 65vw;
-    padding: 0 15px;
-    max-width: 600px;
+  position: absolute;
+  top: 5.9vw;
+  text-align: center;
+  width: 65vw;
+  padding: 0 15px;
+  max-width: 600px;
 }
+
 #apDiv105 {
-    white-space: nowrap;
-    position: absolute;
-    width: 69vw;
-    font-size: 4vw;
+  white-space: nowrap;
+  position: absolute;
+  width: 69vw;
+  font-size: 4vw;
 }
+
 #apDiv22 {
-    left: -13px;
-    width: 270px;
+  left: -13px;
+  width: 270px;
 }
+
 #apDiv109 {
-    left: 174px;
+  left: 174px;
 }
+
 #apDiv75 {
-    width: 100%;
+  width: 100%;
 }
+
 .close {
-    right: 262px;
-    top: -22px;
+  right: 262px;
+  top: -22px;
 }

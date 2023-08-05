@@ -138,6 +138,7 @@ function tx8(kv1) {
   }
 
   if (kv1 == 1) {
+    // console.log(1)
     strv = document.getElementById('qv1').value
     if (strv == '') {
       alert('Поле пустое. Пожалуйста наберите ваш вопрос...')
@@ -441,7 +442,7 @@ function tx4(kv4) {
     // document.getElementById('apDiv121').style.display = 'none'
     document.getElementById('apDiv122').style.display = 'block'
     del121()
-    document.getElementById('apDiv116').innerHTML = 'Гороскоп на 3 дня'
+    document.getElementById('apDiv116').innerHTML = 'О программе'
     $("#apDiv116").animate({opacity: "1"}, 1200)
     document.getElementById('apDiv117').style.display = 'block'
     document.getElementById("apDiv117").style.opacity = '0'
@@ -590,7 +591,7 @@ function tx2(n2) {
 window.vp1 = 35
 function tx1(n1) {
   // document.getElementById('txs').src = 'texstr.html'
-  document.getElementById('footer').style.backgroundImage = 'url("img/101_6.png")'
+  // document.getElementById('footer').style.backgroundImage = 'url("img/101_6.png")'
   document.getElementById('body').style.backgroundImage = 'url("img/101.png")'
   // document.getElementById('apDiv112').style.backgroundImage = 'url("img/101_6.png")'
   document.getElementById('apDiv113').style.color = 'white'
@@ -658,8 +659,8 @@ function tx1(n1) {
     if (aa1 == 'pr6') {
       document.getElementById('apDiv651').style.display = 'none'
       document.getElementById('apDiv551').style.display = 'none'
-      document.getElementById('apdiv541').style.height = '24px'
-      document.getElementById('apdiv541').style.top = '64px'
+      document.getElementById('apDiv541').style.height = '24px'
+      document.getElementById('apDiv541').style.top = '64px'
       document.getElementById('sts1').innerHTML = '->'
       document.getElementById('sts2').innerHTML = '№...'
       document.getElementById('sts3').innerHTML = '->'
@@ -786,7 +787,7 @@ function tx1(n1) {
     })
     document.getElementById("apDiv40").style.display = "block"
     bv11 = 0, bv21 = 0, bv31 = 0
-    document.getElementById('apdiv541').style.width = '0px'
+    document.getElementById('apDiv541').style.width = '0px'
     document.getElementById('apDiv551').style.width = '0px'
     document.getElementById('apDiv651').style.width = '0px'
 
@@ -810,7 +811,7 @@ function tx1(n1) {
 
         }
         var bv1 = Math.floor(Math.random() * 3 + 1 / 2)
-        document.getElementById('apdiv541').style.width = bv11 * 5 + 'px'
+        document.getElementById('apDiv541').style.width = bv11 * 5 + 'px'
         document.getElementById('apDiv551').style.width = bv21 * 5 + 'px'
         document.getElementById('apDiv651').style.width = bv31 * 5 + 'px'
       }
@@ -920,7 +921,7 @@ function tx1(n1) {
       return 1 - d(1 - progress)
     }
 
-    document.getElementById('apdiv541').style.height = '23px'
+    document.getElementById('apDiv541').style.height = '23px'
     if (aa1 == 'pr5') {
       document.getElementById('apDiv551').style.height = '0'
     } else {
@@ -929,7 +930,7 @@ function tx1(n1) {
     document.getElementById('apDiv651').style.height = '23px'
 
     if (aa1 == 'pr6') {
-      document.getElementById('apdiv541').style.height = '24px'
+      document.getElementById('apDiv541').style.height = '24px'
       document.getElementById('apDiv551').style.height = '0px'
       document.getElementById('apDiv651').style.height = '0px'
     }
@@ -941,7 +942,7 @@ function tx1(n1) {
         var now = (new Date().getTime()) - start // Текущее время
         var progress = now / duration
         var result = (to - from) * delta(progress) + from
-        document.getElementById('apdiv541').style.width = result + "px"
+        document.getElementById('apDiv541').style.width = result + "px"
         document.getElementById('apDiv551').style.width = result + "px"
         document.getElementById('apDiv651').style.width = result + "px"
 
@@ -951,7 +952,7 @@ function tx1(n1) {
           $('#apDiv71').hide(20, function () {
             // $('#apDiv71').hide(2400, function () {
           })
-          document.getElementById('apdiv541').style.width = b1 * 5 + "px"
+          document.getElementById('apDiv541').style.width = b1 * 5 + "px"
           document.getElementById('apDiv551').style.width = b2 * 5 + "px"
           document.getElementById('apDiv651').style.width = b3 * 5 + "px"
           document.getElementById('apDiv70').innerHTML = v2 + '%'
