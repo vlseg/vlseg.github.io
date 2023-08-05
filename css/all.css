@@ -39,7 +39,7 @@ body {
   background-image: url(../img/svk22.png);
   background-size: cover;
   /*position: relative;*/
-  overflow: hidden;
+  overflow-x: hidden;
   position: fixed;
   width: -moz-available;
   /*border: 1px solid red;*/
