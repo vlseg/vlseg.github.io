@@ -41,6 +41,7 @@ body {
   /*position: relative;*/
   overflow-x: hidden;
   /*position: fixed;*/
+  width: -webkit-fill-available;
   width: -moz-available;
   /*border: 1px solid red;*/
 }
