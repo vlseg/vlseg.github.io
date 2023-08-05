@@ -891,7 +891,7 @@ function tx1(n1) {
 
     bo1 = b1, bo2 = b2, bo3 = b3
 
-    document.getElementById('apDiv41').src = 'url(img/101_1.png)'
+    document.getElementById('apDiv41').src = 'img/101_1.png'
     document.getElementById('apDiv45').style.display = 'none'
     document.getElementById('apDiv74').style.display = 'none'
 
@@ -1516,7 +1516,7 @@ function tx1(n1) {
     document.getElementById('apDiv58').innerHTML = ko4
     // document.getElementById('nd14').value = ko4;
     document.getElementById('rot').style.display = 'none'
-    document.getElementById('rot1').style.display = 'block'
+    // document.getElementById('rot1').style.display = 'block'
   } // us1
 
   //todo use
