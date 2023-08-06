@@ -22,7 +22,7 @@ body {
   top: 3px;
   left: 7.3vw;
   text-align: left;
-  font-size: 3vw; //6.8vw;
+  font-size: 6.7vw; //6.8vw;
 }
 #apDiv86 {
   float: none;
@@ -37,6 +37,7 @@ body {
   left: 0;
 }
 #plt {
+  top: -94px!important;
   max-width: 324px;
   left: 0;
   position: relative !important;
@@ -48,7 +49,7 @@ body {
   width: 244px !important;
   font-size: 16px !important;
   left: 39px !important;
-  top: 83px !important;
+  top: 43px !important;
   line-height: 24px;
 }
 #pusk {
@@ -67,14 +68,23 @@ body {
   top: 24px;
 }
 #apDiv132 {
-  left: 34px;
-  width: 308px;
+  top: 35px;
+  height: 192px;
+  left: 31px;
+  width: 256px;
   background-size: 260px 200px;
   background-repeat: no-repeat;
 }
+#apDiv142 {
+  top: 20px;
+  width: 244px;
+}
 #apDiv143 {
+  top: 16px;
   left: 8px;
   width: 240px;
+  overflow-y: auto;
+  height: 127px;
 }
 #apDiv116 {
   width: 261px;
@@ -84,9 +94,11 @@ body {
   left: 33px;
 }
 #apDiv144 {
+  top: 49px;
+  height: 159px;
   left: 34px;
   width: 246px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 #apDiv5 {
   width: 98%;
@@ -95,17 +107,19 @@ body {
   left: 8px !important;
   width: 203px !important;
   cursor: pointer;
+  height: 178px;
 }
 .f1, .f2 {
   width: 279px !important;
   left: 3vw !important;
-  height: 249px !important;
+  height: 198px !important;
   top: -18px !important;
 }
 .sol {
-  width: 256px !important;
+  top: -9px;
+  width: 259px !important;
   left: 6vw !important;
-  height: 221px !important;
+  height: 183px !important;
   /*top: -194px !important;*/
 }
 .zg146 {
@@ -116,6 +130,7 @@ body {
   border: none;
 }
 #apDiv121 {
+  padding-top: 20px;
   width: 277px;
   left: 25px;
 }
@@ -125,6 +140,10 @@ body {
 .fon-img {
   width: 324px;
   cursor: pointer;
+  height: 266px;
+}
+#apDiv118 {
+  top: -92px;
 }
 .fon {
   width: 75vw;
@@ -136,7 +155,7 @@ body {
   left: -178px !important;
 }
 #sec1 {
-  top: 20px;
+  top: 4px;
 }
 #apDiv41 {
   width: 100vw;
@@ -198,7 +217,7 @@ body {
 #apDiv31 {
   top: 13px;
   left: 10px;
-  width: 200px;
+  width: 182px;
   height: 60px;
   border-radius: 0px 15px 15px 0px;
 }
@@ -238,7 +257,7 @@ body {
   height: 55px;
   color: black;
   background-color: transparent;
-  bottom: -211px;
+  bottom: -149px;
   font-size: 2.6vw;
   /*padding: 0 5px;*/
 }
@@ -287,17 +306,17 @@ body {
 }
 #apDiv47 > img {
   position: relative;
-  width: 387px;
-  height: 264px;
+  width: 350px;
+  height: 237px;
   z-index: 12;
   top: -13px;
 }
 #apDiv60 {
   position: absolute;
   left: 16%;
-  top: 33px;
-  width: 257px;
-  height: 167px;
+  top: 25px;
+  width: 234px;
+  height: 155px;
   z-index: 16;
   border-radius: 1460px/863px;
 }
@@ -323,7 +342,7 @@ body {
   padding: 0 5px;
   left: 0;
   top: 59px;
-  width: 247px;
+  width: 228px;
   font-size: 2em;
 }
 .text {
@@ -358,13 +377,14 @@ body {
 #apDiv49 {
   left: 22px;
   top: 97px;
-  width: 222px;
+  width: 192px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  height: 37px;
 }
 #apDiv72 {
-  top: 521px;
+  top: 496px;
   left: auto;
   font-size: 2.6vw;
   width: 27vw;

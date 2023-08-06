@@ -252,7 +252,7 @@ function del121() {
   document.getElementById('row2').style.display = 'none'
 }
 function tx4(kv4) {
-  document.getElementById('apDiv116').style.display = 'block'
+  if (window.innerWidth > 525) document.getElementById('apDiv116').style.display = 'block'
   if (kv4 != 4) document.getElementById("apDiv116").style.opacity = '0'
   document.getElementById('apDiv117').style.display = 'none'
   // document.getElementById('apDiv9').style.display = 'none'
@@ -271,7 +271,7 @@ function tx4(kv4) {
     // document.getElementById('apDiv130').style.display = 'none'
     // document.getElementById('row1').style.display = 'none'
     // document.getElementById('row2').style.display = 'none'
-
+    if (window.innerWidth < 526) document.getElementById('apDiv116').style.display = 'none'
     document.getElementById('apDiv116').innerHTML = 'Законы Мерфи'
     $("#apDiv116").animate({opacity: "1"}, 1200)
     document.getElementById('apDiv144').style.display = 'block'
@@ -355,6 +355,7 @@ function tx4(kv4) {
     // document.getElementById('apDiv121').style.display = 'none'
     document.getElementById('apDiv122').style.display = 'block'
     del121()
+    if (window.innerWidth < 526) document.getElementById('apDiv116').style.display = 'none'
     document.getElementById('apDiv116').innerHTML = 'Цитата для Вас'
     $("#apDiv116").animate({opacity: "1"}, 1200)
     document.getElementById('apDiv132').style.display = 'block'
@@ -441,6 +442,7 @@ function tx4(kv4) {
     // document.getElementById('apDiv121').style.display = 'none'
     document.getElementById('apDiv122').style.display = 'block'
     del121()
+    if (window.innerWidth < 526) document.getElementById('apDiv116').style.display = 'none'
     document.getElementById('apDiv116').innerHTML = 'О программе'
     $("#apDiv116").animate({opacity: "1"}, 1200)
     document.getElementById('apDiv117').style.display = 'block'
@@ -459,6 +461,7 @@ function tx4(kv4) {
 
   if (kv4 == 4) {
     document.getElementById('apDiv122').style.display = 'none'
+    if (window.innerWidth < 526) document.getElementById('apDiv116').style.display = 'none'
     $("#apDiv116").animate({opacity: "0"}, 60)
     $("#apDiv147").animate({opacity: "0"}, 1200)
     document.getElementById("apDiv148").style.opacity = '0'
@@ -519,6 +522,7 @@ function tx4(kv4) {
     document.getElementById('pusk').style.display = 'block'
     del121()
 
+    if (window.innerWidth < 526) document.getElementById('apDiv116').style.display = 'none'
     document.getElementById('apDiv116').innerHTML = 'Тренировка интуитивного восприятия'
     $("#apDiv116").animate({opacity: "1"}, 1200)
     if (kv4 == 6) {
