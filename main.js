@@ -815,7 +815,7 @@ function tx1(n1) {
 
         }
         var bv1 = Math.floor(Math.random() * 3 + 1 / 2)
-        const mult = 2
+        const mult = window.innerWidth < 526 ? 2 : 5
         document.getElementById('apDiv541').style.width = bv11 * mult + 'px'
         document.getElementById('apDiv551').style.width = bv21 * mult + 'px'
         document.getElementById('apDiv651').style.width = bv31 * mult + 'px'
@@ -927,7 +927,6 @@ function tx1(n1) {
       function d(progress) {
         return 1 - Math.sin(Math.acos(progress))
       }
-
       return 1 - d(1 - progress)
     }
 
@@ -953,14 +952,13 @@ function tx1(n1) {
       document.getElementById('apDiv651').style.height = '0px'
     }
     var from = 0
-    var to = 8 //200
+    var to = window.innerWidth < 526 ? 130 : 200
     var duration = 3000
     var start = new Date().getTime()
     setTimeout(function () {
         var now = (new Date().getTime()) - start // Текущее время
         var progress = now / duration
         var result = (to - from) * delta(progress) + from
-        console.log('>>', to, from, result)
         document.getElementById('apDiv541').style.width = result + "px"
         document.getElementById('apDiv551').style.width = result + "px"
         document.getElementById('apDiv651').style.width = result + "px"
@@ -968,27 +966,30 @@ function tx1(n1) {
         if (progress < 1) {// Если анимация не закончилась
           setTimeout(arguments.callee, 10)
         } else {
+          const mult = window.innerWidth < 526 ? 3.1 : 5
           $('#apDiv71').hide(20, function () {
             // $('#apDiv71').hide(2400, function () {
           })
-          document.getElementById('apDiv541').style.width = b1 * 5 + "px"
-          document.getElementById('apDiv551').style.width = b2 * 5 + "px"
-          document.getElementById('apDiv651').style.width = b3 * 5 + "px"
+          document.getElementById('apDiv541').style.width = b1 * mult + "px"
+          document.getElementById('apDiv551').style.width = b2 * mult + "px"
+          document.getElementById('apDiv651').style.width = b3 * mult + "px"
           document.getElementById('apDiv70').innerHTML = v2 + '%'
           $('#apDiv47').show(1200, function () {
           })
-          $("#apDiv59").animate({opacity: "1"}, 0)
-          $("#apDiv62").animate({opacity: "1"}, 0)
-          $("#apDiv65").animate({opacity: "1"}, 0)
-          $("#apDiv67").animate({opacity: "1"}, 0)
-          $('#apDiv59').show(1200, function () {
-          })
-          $('#apDiv62').show(3600, function () {
-          })
-          $('#apDiv65').show(6000, function () {
-          })
-          $('#apDiv67').show(8400, function () {
-          })
+          $("#apDiv59").animate({opacity: "1"}, 0).show(1200, function () {})
+          $("#apDiv62").animate({opacity: "1"}, 0).show(3600, function () {})
+          $("#apDiv65").animate({opacity: "1"}, 0).show(6000, function () {})
+          $("#apDiv67").animate({opacity: "1"}, 0).show(8400, function () {})
+
+          if (document.getElementById('apDiv49').innerHTML !== '' && window.innerWidth < 526) {
+            document.getElementById('apDiv49').style.width = '167px'
+            document.getElementById('apDiv49').style.top = '71px'
+            document.getElementById('apDiv48').style.top = '40%'
+          }
+          // $('#apDiv59')
+          // $('#apDiv62')
+          // $('#apDiv65')
+          // $('#apDiv67')
 
           $('#apDiv72').show(300, function () {
           })

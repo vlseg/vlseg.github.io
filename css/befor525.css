@@ -221,6 +221,10 @@ body {
   height: 60px;
   border-radius: 0px 15px 15px 0px;
 }
+#apDiv31 > h4 {
+  font-size: 2vw;
+  margin-top: -2px;
+}
 #apDiv541 {
   left: 35px;
   top: 20px;
@@ -302,7 +306,7 @@ body {
   height: 252px;
   margin: 0 auto;
   left: 0;
-  top: 155px;
+  top: 188px;
 }
 #apDiv47 > img {
   position: relative;
@@ -331,7 +335,7 @@ body {
 #apDiv65 {
   left: auto;
   top: 91px;
-  right: 20px;
+  right: 10px;
 }
 #apDiv67 {
   left: auto;
@@ -341,20 +345,23 @@ body {
 #apDiv48 {
   padding: 0 5px;
   left: 0;
-  top: 59px;
+  top: 50%;
+  margin: -24px 0 0 0;
+  line-height: 52px;
   width: 228px;
-  font-size: 2em;
+  font-size: 20px;
 }
 .text {
-  width: 34vw;
-  height: 23vw;
+  width: 142px;
+  height: 98px;
 }
 .text1 {
-  left: 4.5vw !important;
+  left: 20px !important;
   top: 2.5vw !important;
-  width: 25.5vw !important;
-  height: 14.6vw !important;
+  width: 105px !important;
+  height: 63px !important;
   overflow-y: scroll !important;
+  font-size: 10px;
   text-align: left;
   background: #e1b15f;
   padding: 2px 0 0 3px;
@@ -363,25 +370,29 @@ body {
 }
 .text2 {
   top: auto !important;
-  right: -5.4vw !important;
+  right: -20px!important;
   bottom: -2.5vw !important;
-  font-size: 2.4vw !important;
-  width: 25.5vw !important;
+  font-size: 9px !important;
+  width: 104px !important;
   background: #e1b15f;
   padding-right: 3px;
   height: 3.2vw !important;
 }
 #apDiv70 {
-  top: 44px;
+  top: 47px;
+}
+#sts4 {
+  margin-top: 3px;
 }
 #apDiv49 {
   left: 22px;
   top: 97px;
-  width: 192px;
+  width: 167px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   height: 37px;
+  padding-left: 15px;
 }
 #apDiv72 {
   top: 496px;
@@ -432,7 +443,7 @@ body {
 #apDiv23 {
   position: relative;
   left: auto;
-  top: 50px;
+  top: 0;
   margin: 0 auto;
 }
 #apDiv108 {
