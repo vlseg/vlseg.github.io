@@ -114,7 +114,6 @@ footer {
   position: relative;
   background-image: url(../img/11.png);
   background-size: cover;
-  position: relative;
   width: 98vw;
   margin: 0 auto;
   font-size: 10px;
@@ -137,7 +136,7 @@ header {
   padding-right: 0;
   padding-bottom: 0px;
   padding-left: 0;
-  height: 100vh;
+  height: 100dvh;
 / / 842 px;
   max-height: 656px;
   background-image: url(../img/svitki_081.png);
