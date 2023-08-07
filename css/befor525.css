@@ -329,8 +329,8 @@ body {
   left: 14px;
 }
 #apDiv62 {
-  left: 38px;
-  top: 414px;
+  left: 18px;
+  top: 408px;
 }
 #apDiv65 {
   left: auto;
@@ -339,7 +339,7 @@ body {
 }
 #apDiv67 {
   left: auto;
-  top: 389px;
+  top: 416px;
   right: 20px;
 }
 #apDiv48 {
@@ -347,7 +347,6 @@ body {
   left: 0;
   top: 50%;
   margin: -24px 0 0 0;
-  line-height: 52px;
   width: 228px;
   font-size: 20px;
 }
@@ -395,7 +394,7 @@ body {
   padding-left: 15px;
 }
 #apDiv72 {
-  top: 496px;
+  top: 332; //496px;
   left: auto;
   font-size: 2.6vw;
   width: 27vw;
