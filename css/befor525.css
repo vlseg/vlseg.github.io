@@ -15,6 +15,7 @@ body {
   font-size: 2.6vw;
   left: auto;
   top: 0;
+  line-height: 3vw;
 }
 #apDiv105 {
   width: 100vw;
@@ -156,6 +157,7 @@ body {
 }
 #sec1 {
   top: 4px;
+  z-index: -1;
 }
 #apDiv41 {
   width: 100vw;
@@ -261,7 +263,7 @@ body {
   height: 55px;
   color: black;
   background-color: transparent;
-  bottom: -149px;
+  bottom: -100px;
   font-size: 2.6vw;
   /*padding: 0 5px;*/
 }
@@ -329,7 +331,7 @@ body {
   left: 14px;
 }
 #apDiv62 {
-  left: 13px;
+  left: 10px;
   top: 408px;
 }
 #apDiv65 {
@@ -340,7 +342,7 @@ body {
 #apDiv67 {
   left: auto;
   top: 416px;
-  right: 15px;
+  right: 10px;
 }
 #apDiv48 {
   padding: 0 5px;
@@ -452,7 +454,7 @@ body {
   position: relative;
   /*left: auto;*/
   /*right: -152px;*/
-  top: 8px;
+  top: 15px;
   width: 100%;
   height: 34px;
   z-index: 20;
@@ -489,12 +491,12 @@ body {
 }
 #apDiv95 {
   left: -6px;
-  top: 1.3vw;
+  top: 0.3vw;
   width: 204px;
 }
 #apDiv95 > h4 {
-  font-size: 2.1vw !important;
-  margin-top: 2px;
+  font-size: 3.1vw !important;
+  margin-top: -20px;
 }
 #apDiv96 {
   font-size: 20px;

@@ -1,8 +1,9 @@
 function randomInteger(min, max) {
-    // получить случайное число от (min-0.5) до (max+0.5)
-    let rand = min - 0.5 + Math.random() * (max - min + 1)
-    return Math.round(rand)
-  }
+  // получить случайное число от (min-0.5) до (max+0.5)
+  let rand = min - 0.5 + Math.random() * (max - min + 1)
+  return Math.round(rand)
+}
+
 /*
   (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r
@@ -78,22 +79,28 @@ function hoverr(ff, ff1, ff2) {
     $(ff2).stop().animate({top: otp, right: ort}, speed)
   })
 }
+
 function MM_callJS(jsStr) {
   return eval(jsStr)
 }
+
 function newAsk() {
   window.location.reload()
 }
+
 function zg6() {
   document.getElementById('apDiv107t').style.display = 'block'
 }
+
 function zg14() {
   document.getElementById('apDiv149t').style.display = 'block'
 }
+
 function close() {
   document.getElementById('apDiv107t').style.display = 'none'
   document.getElementById('apDiv149t').style.display = 'none'
 }
+
 function tx9(kv6) {
   document.getElementById('apDiv134').style.display = 'block'
   document.getElementById('apDiv135').style.display = 'none'
@@ -112,6 +119,7 @@ function tx9(kv6) {
   if (kv6 == 4) document.getElementById('apDiv140').style.display = 'block'
   if (kv6 == 5) document.getElementById('apDiv141').style.display = 'block'
 }
+
 function tx8(kv1) {
   if (kv1 == 3) {
     document.getElementById('apDiv132').style.display = 'none'
@@ -176,7 +184,8 @@ function tx8(kv1) {
       }
       if (vvp == 1) {
         document.getElementById("apDiv8").style.display = "block"
-        $('#apDiv22').show(600, function () {})
+        $('#apDiv22').show(600, function () {
+        })
         document.getElementById("apDiv2").style.display = 'none'
         aa1 = 'pr6'
       } else {
@@ -187,6 +196,7 @@ function tx8(kv1) {
     } // strv
   } // kv1
 }
+
 function tx7(kv2) {
 
   if (kv2 == 1) {
@@ -215,11 +225,13 @@ function tx7(kv2) {
     document.getElementById("apDiv22").style.display = 'none'
   }
 }
+
 function tx6() {
 
   document.getElementById('apDiv84').style.display = 'none'
   // document.getElementById("apDiv88").style.display = 'block'
 }
+
 function tx5(k1) {
   if (k1 == 1) {
     document.getElementById('sec1').style.display = 'none'
@@ -230,15 +242,19 @@ function tx5(k1) {
   }
   if (k1 == 2) {
     $('#apDiv81').animate({height: "hide"}, 600)
+
     function func() {
       document.getElementById("apDiv86").style.opacity = '0'
       // document.getElementById("sec1").style.opacity = '0'
-      $('#apDiv85').show(0, function () {})
-      $('#apDiv93').show(0, function () {})
+      $('#apDiv85').show(0, function () {
+      })
+      $('#apDiv93').show(0, function () {
+      })
       // $('#sec1').show(0, function () {})
       $("#apDiv86").animate({opacity: "1"}, 0)
       document.getElementById('sec1').style.display = 'block'
     }
+
     // $("#sec1").animate({opacity: "1"}, 0)
     setTimeout(func, 600)
     // document.getElementById('apDiv88').style.display = 'none'
@@ -246,11 +262,13 @@ function tx5(k1) {
     document.getElementById('apDiv84').style.display = 'block'
   }
 }
+
 function del121() {
   document.getElementById('apDiv130').style.display = 'none'
   document.getElementById('row1').style.display = 'none'
   document.getElementById('row2').style.display = 'none'
 }
+
 function tx4(kv4) {
   if (window.innerWidth > 525) document.getElementById('apDiv116').style.display = 'block'
   if (kv4 != 4) document.getElementById("apDiv116").style.opacity = '0'
@@ -591,7 +609,9 @@ function tx2(n2) {
     })
   }
 }
+
 window.vp1 = 35
+
 function tx1(n1) {
   // document.getElementById('txs').src = 'texstr.html'
   // document.getElementById('footer').style.backgroundImage = 'url("img/101_6.png")'
@@ -636,7 +656,8 @@ function tx1(n1) {
       document.getElementById('sts3').innerHTML = 'Год'
     }
     if (aa1 == 'pr5') {
-      document.getElementById('apDiv551').style.display = 'none'
+      document.getElementById('apDiv551').style.display = 'block'
+      // document.getElementById('apDiv551').style.display = 'none'
       document.getElementById('sts1').innerHTML = '№1'
       document.getElementById('sts2').innerHTML = '---'
       document.getElementById('sts3').innerHTML = '№2'
@@ -662,6 +683,7 @@ function tx1(n1) {
     if (aa1 == 'pr6') {
       document.getElementById('apDiv651').style.display = 'none'
       document.getElementById('apDiv541').style.display = 'none'
+      document.getElementById('apDiv551').style.display = 'block'
       // document.getElementById('apDiv551').style.display = 'none'
       // document.getElementById('apDiv541').style.height = '24px'
       // document.getElementById('apDiv541').style.top = '64px'
@@ -781,14 +803,11 @@ function tx1(n1) {
     tim4 = setInterval(us4, 14400)
   }
   if (aa1 == 'pr5' || aa1 == 'pr6') {
-    $('#apDiv22').hide(1200, function () {
-    })
-  } else {
+    $('#apDiv22').hide(1200, function () {})
   }
 
   if (n1 != 31) {
-    $('#apDiv30').show(3600, function () {
-    })
+    $('#apDiv30').show(3600, function () {})
     document.getElementById("apDiv40").style.display = "block"
     bv11 = 0, bv21 = 0, bv31 = 0
     document.getElementById('apDiv541').style.width = '0px'
@@ -804,26 +823,23 @@ function tx1(n1) {
           if (bv == 0) {
             bv11++
           }
-
           if (bv == 1) {
             bv21++
           }
-
           if (bv == 2) {
             bv31++
           }
-
         }
         var bv1 = Math.floor(Math.random() * 3 + 1 / 2)
         const mult = window.innerWidth < 526 ? 2 : 5
         document.getElementById('apDiv541').style.width = bv11 * mult + 'px'
         document.getElementById('apDiv551').style.width = bv21 * mult + 'px'
         document.getElementById('apDiv651').style.width = bv31 * mult + 'px'
-/*
-        document.getElementById('apDiv541').style.width = bv11 * 5 + 'px'
-        document.getElementById('apDiv551').style.width = bv21 * 5 + 'px'
-        document.getElementById('apDiv651').style.width = bv31 * 5 + 'px'
-*/
+        /*
+                document.getElementById('apDiv541').style.width = bv11 * 5 + 'px'
+                document.getElementById('apDiv551').style.width = bv21 * 5 + 'px'
+                document.getElementById('apDiv651').style.width = bv31 * 5 + 'px'
+        */
       }
 
       tim1 = setInterval(us2, 100)
@@ -831,7 +847,8 @@ function tx1(n1) {
   } // != 31
 
   if (n1 == 31) {
-    b1 = bv11, b2 = bv21, b3 = bv31
+
+    var b1 = bv11, b2 = bv21, b3 = bv31
     bq1 = bv11, bq2 = bv21, bq3 = bv31
 
     var bu1 = b3 - b1
@@ -927,18 +944,20 @@ function tx1(n1) {
       function d(progress) {
         return 1 - Math.sin(Math.acos(progress))
       }
+
       return 1 - d(1 - progress)
     }
 
     const widthScreen = window.innerWidth
-    console.log('DDD', window.innerWidth)
+    // console.log('DDD', window.innerWidth)
 
     let heightLine = '23px'
     if (window.innerWidth < 526) {
       heightLine = '8px'
     }
 
-    document.getElementById('apDiv541').style.height = heightLine
+    document.getElementById('apDiv551').style.height = heightLine
+    // document.getElementById('apDiv541').style.height = heightLine
     if (aa1 == 'pr5') {
       document.getElementById('apDiv551').style.height = '0'
     } else {
@@ -947,8 +966,9 @@ function tx1(n1) {
     document.getElementById('apDiv651').style.height = heightLine
 
     if (aa1 == 'pr6') {
-      document.getElementById('apDiv541').style.height = heightLine
-      document.getElementById('apDiv551').style.height = '0px'
+      document.getElementById('apDiv551').style.height = heightLine
+      // document.getElementById('apDiv541').style.height = heightLine
+      // document.getElementById('apDiv551').style.height = '0px'
       document.getElementById('apDiv651').style.height = '0px'
     }
     var from = 0
@@ -967,36 +987,32 @@ function tx1(n1) {
           setTimeout(arguments.callee, 10)
         } else {
           const mult = window.innerWidth < 526 ? 3.1 : 5
-          $('#apDiv71').hide(20, function () {
-            // $('#apDiv71').hide(2400, function () {
-          })
+          $('#apDiv71').hide(20, function () {})
           document.getElementById('apDiv541').style.width = b1 * mult + "px"
           document.getElementById('apDiv551').style.width = b2 * mult + "px"
           document.getElementById('apDiv651').style.width = b3 * mult + "px"
           document.getElementById('apDiv70').innerHTML = v2 + '%'
-          $('#apDiv47').show(1200, function () {
-          })
-          $("#apDiv59").animate({opacity: "1"}, 0).show(1200, function () {})
-          $("#apDiv62").animate({opacity: "1"}, 0).show(3600, function () {})
+          $('#apDiv47').show(1200, function () {})
+          $("#apDiv59").animate({opacity: "1"}, 0).show(3600, function () {})
+          $("#apDiv62").animate({opacity: "1"}, 0).show(4800, function () {})
           $("#apDiv65").animate({opacity: "1"}, 0).show(6000, function () {})
-          $("#apDiv67").animate({opacity: "1"}, 0).show(8400, function () {})
+          $("#apDiv67").animate({opacity: "1"}, 0).show(7200, function () {})
 
           if (document.getElementById('apDiv49').innerHTML !== '' && window.innerWidth < 526) {
             document.getElementById('apDiv49').style.width = '167px'
             document.getElementById('apDiv49').style.top = '71px'
             document.getElementById('apDiv48').style.top = '40%'
           }
-          // $('#apDiv59')
-          // $('#apDiv62')
-          // $('#apDiv65')
-          // $('#apDiv67')
-
-          $('#apDiv72').show(300, function () {
-          })
-
         }
       }
       , 10)  // setTimeout
+    setTimeout(() => {
+      $('#apDiv72').show(1200, function () {
+      })
+    }, 8600)
+
+    console.log('<>1', b1, b2, b3)
+
   }  //n1 == 31
 
   var b5, b6
@@ -1028,7 +1044,8 @@ function tx1(n1) {
         var b2 = 100 - (b1 + b3)
       }
   */
-
+  var b1 = 19, b2 = 39, b3 = 41
+  console.log('<>2', b1, b2, b3)
   var b1a = b1, b2a = b2, b3a = b3
   var b4 = Math.max(b1, b2, b3)
   if (b4 == b1) {
@@ -1076,11 +1093,13 @@ function tx1(n1) {
     vvx = -vx1
   }
 
-  v2 = x + vvx + bu1
+  var v2 = x + vvx + bu1
+  if(!v2) v2 = 100
+
   v3 = v2
-  if (v2 < 67) v = 1
-  if (v2 >= 67 && v2 < 81) v = 2
-  if (v2 >= 81) v = 3
+  if (v2 < 67) var v = 1
+  if (v2 >= 67 && v2 < 81) var v = 2
+  if (v2 >= 81) var v = 3
 
 
   if (v2 < 53) {
@@ -1121,7 +1140,7 @@ function tx1(n1) {
       if (kls == "13" || kls == "12") kls = "11"
       if (klr == "13" || klr == "12") klr = "11"
       if (kli == "13" || kli == "12") kli = "11"
-      console.log('klv=', klv, 'b5=', b5, 'v=', v)
+      // console.log('klv=', klv, 'b5=', b5, 'v=', v)
       var mm = 'apDiv48'
       const kv = [
         [
@@ -1172,6 +1191,7 @@ function tx1(n1) {
           ],
         ],
       ]
+      console.log('<>3', v, kv)
       /*
       const kv1 = [
         [
@@ -1221,11 +1241,12 @@ function tx1(n1) {
         ]
       ]
 */
+      // const v1 = randomInteger(1, 3)
       const kvv = kv[b5][v - 1]
       const idx = randomInteger(0, kvv.length - 1)
-      console.log('>0', idx, kvv)
-      const rand_v = kv[b5][v-1][idx]
-      console.log('>>>>', idx, kv, kv[b5], kv[b5][v-1], rand_v)
+      // console.log('>0', idx, kvv)
+      const rand_v = kv[b5][v - 1][idx]
+      // console.log('>>>>', idx, kv, kv[b5], kv[b5][v-1], rand_v)
       document.getElementById('apDiv48').innerHTML = rand_v
 
       // $.ajax(
@@ -1535,7 +1556,9 @@ function tx1(n1) {
 
     document.getElementById('apDiv58').innerHTML = ko4
     // document.getElementById('nd14').value = ko4;
+/*
     document.getElementById('rot').style.display = 'none'
+*/
     // document.getElementById('rot1').style.display = 'block'
   } // us1
 
