@@ -1,8 +1,3 @@
-/*
-body {
-    width: auto;
-}
-*/
 .cursor {
   cursor: pointer;
 }
@@ -11,7 +6,6 @@ body {
   margin: 0 auto;
 }
 #apDiv3 {
-  /*display: none;*/
   font-size: 2.6vw;
   left: auto;
   top: 0;
@@ -32,8 +26,6 @@ body {
   position: absolute;
 }
 #apDiv89 {
-  /*display: flex;*/
-  /*justify-content: center;*/
   width: 100vw;
   left: 0;
 }
@@ -43,8 +35,6 @@ body {
   left: 0;
   position: relative !important;
   margin: 0 auto;
-  /*top: -27px !important;*/
-  /*background: #FFFF00;*/
 }
 #apDiv147 {
   width: 244px !important;
@@ -90,7 +80,6 @@ body {
 #apDiv116 {
   width: 261px;
   font-size: 14px;
-  /*right: 0 !important;*/
   text-align: center;
   left: 33px;
 }
@@ -121,7 +110,6 @@ body {
   width: 259px !important;
   left: 6vw !important;
   height: 183px !important;
-  /*top: -194px !important;*/
 }
 .zg146 {
   left: 32px;
@@ -175,7 +163,6 @@ body {
   margin: 0 auto;
 }
 #apDiv44 {
-  /*position: relative;*/
   top: 146px;
   left: 0;
   width: 100vw;
@@ -184,7 +171,6 @@ body {
   margin: 0 auto;
   top: -38px;
   width: 100vw;
-  /*height: 152px;*/
 }
 #apDiv45 {
   border-radius: 50%;
@@ -199,7 +185,6 @@ body {
   z-index: 10;
   opacity: 0.3;
   background-image: url(../img/obl1.png);
-  /*background-image: url(img/obl1.png);*/
   background-size: 837px 411px;
   background-position-x: -46px;
   background-position-y: -130px;
@@ -253,11 +238,9 @@ body {
 }
 
 #apDiv28 {
-  /*text-align: center !important;*/
   width: 69vw;
   left: auto;
   top: auto;
-  /*border: 1px solid;*/
   border-radius: 15px;
   right: -16vw;
   height: 55px;
@@ -265,19 +248,15 @@ body {
   background-color: transparent;
   bottom: -100px;
   font-size: 2.6vw;
-  /*padding: 0 5px;*/
 }
 #apDiv28 > h4 {
   padding-right: 5px;
-/ / 25;
   padding-left: 5px;
-/ / 25;
   text-align: center;
 }
 #rot {
   width: 193px !important;
   height: 153px !important;
-  /*margin-top: 38px;*/
 }
 #apDiv42 {
   top: -13px;
@@ -380,7 +359,8 @@ body {
   height: 3.2vw !important;
 }
 #apDiv70 {
-  top: 47px;
+  top: 50px;
+  font-size: 10px;
 }
 #sts4 {
   margin-top: 3px;
@@ -396,13 +376,12 @@ body {
   padding-left: 15px;
 }
 #apDiv72 {
-  top: 332; //496px;
+  top: 332px;
   left: auto;
   font-size: 2.6vw;
   width: 27vw;
   height: 42px;
   z-index: 49 !important;
-  /*top: 12px;*/
   color: #846de0;
   border: 2px solid #8771da;
   right: 25px;
@@ -452,8 +431,6 @@ body {
 }
 #apDiv85 {
   position: relative;
-  /*left: auto;*/
-  /*right: -152px;*/
   top: 15px;
   width: 100%;
   height: 34px;
@@ -470,7 +447,6 @@ body {
   right: 4px;
   height: 443px;
   display: none;
-  /*-webkit-background-size: contain;*/
   background-size: contain;
   background: url(../img/svitok_k79.png) no-repeat;
   margin: 0 auto;
@@ -520,11 +496,6 @@ body {
   position: absolute;
   display: none;
 }
-/*
-#apDiv114 {
-    display: none;
-}
-*/
 .zg5:hover::after {
   display: none;
 }
@@ -538,7 +509,3 @@ body {
 .wrap85 {
   width: 74.8vw;
 }
-/*
-footer {
-  width: 96vw;
-}*/

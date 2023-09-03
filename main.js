@@ -1,29 +1,7 @@
 function randomInteger(min, max) {
-  // получить случайное число от (min-0.5) до (max+0.5)
   let rand = min - 0.5 + Math.random() * (max - min + 1)
   return Math.round(rand)
 }
-
-/*
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r
-    i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date()
-    a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0]
-    a.async = 1
-    a.src = g
-    m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga')
-*/
-/*
-  ga('create', 'UA-55942683-1', 'auto')
-  ga('send', 'pageview')
-*/
-// function funonload() {
-// document.getElementById("apDiv47").style.display = 'none';
-// }
 function hoverr(ff, ff1, ff2) {
   var speed = 0, oh = 182, ow = 246, oh1 = 71, ow1 = 150, olf = 50, otp = 48, ke = 1, i = 0, ort = 45
   $(ff).hover(function () {
@@ -131,14 +109,12 @@ function tx8(kv1) {
     document.getElementById('pusk').style.display = 'none'
     document.getElementById('apDiv149').style.display = 'none'
     document.getElementById('apDiv122').style.display = 'none'
-    // document.getElementById('apDiv121').style.opacity = '0'
     document.getElementById('apDiv130').style.display = 'block'
     document.getElementById('row1').style.display = 'flex'
     document.getElementById('row2').style.display = 'flex'
     document.getElementById('apDiv121').style.display = 'block'
     $('#apDiv121').animate({opacity: "1"}, 600)
-
-  }
+ }
   if (kv1 == 2) {
     document.getElementById("apDiv2").style.opacity = '0'
     document.getElementById("apDiv2").style.display = 'block'
@@ -146,7 +122,6 @@ function tx8(kv1) {
   }
 
   if (kv1 == 1) {
-    // console.log(1)
     strv = document.getElementById('qv1').value
     if (strv == '') {
       alert('Поле пустое. Пожалуйста наберите ваш вопрос...')
@@ -158,7 +133,6 @@ function tx8(kv1) {
       var fw2 = strv.split(" ")[1]
 
       if (fw2 == undefined) {
-
         strv = strv + ' '
         var fw1 = strv.split(" ")[0]
         var fw2 = strv.split(" ")[1]
@@ -193,8 +167,8 @@ function tx8(kv1) {
         tx1()
       }
 
-    } // strv
-  } // kv1
+    }
+  }
 }
 
 function tx7(kv2) {
@@ -227,9 +201,7 @@ function tx7(kv2) {
 }
 
 function tx6() {
-
   document.getElementById('apDiv84').style.display = 'none'
-  // document.getElementById("apDiv88").style.display = 'block'
 }
 
 function tx5(k1) {
@@ -245,20 +217,14 @@ function tx5(k1) {
 
     function func() {
       document.getElementById("apDiv86").style.opacity = '0'
-      // document.getElementById("sec1").style.opacity = '0'
       $('#apDiv85').show(0, function () {
       })
       $('#apDiv93').show(0, function () {
       })
-      // $('#sec1').show(0, function () {})
       $("#apDiv86").animate({opacity: "1"}, 0)
       document.getElementById('sec1').style.display = 'block'
     }
-
-    // $("#sec1").animate({opacity: "1"}, 0)
     setTimeout(func, 600)
-    // document.getElementById('apDiv88').style.display = 'none'
-    // $('#sec1').animate({height: "show"}, 10000)
     document.getElementById('apDiv84').style.display = 'block'
   }
 }
@@ -273,9 +239,7 @@ function tx4(kv4) {
   if (window.innerWidth > 525) document.getElementById('apDiv116').style.display = 'block'
   if (kv4 != 4) document.getElementById("apDiv116").style.opacity = '0'
   document.getElementById('apDiv117').style.display = 'none'
-  // document.getElementById('apDiv9').style.display = 'none'
   document.getElementById('apDiv132').style.display = 'none'
-  // document.getElementById('apDiv133').style.display = 'none'
   document.getElementById('apDiv144').style.display = 'none'
   document.getElementById('apDiv147').style.display = 'none'
   document.getElementById('apDiv148').style.display = 'none'
@@ -283,12 +247,8 @@ function tx4(kv4) {
   document.getElementById('apDiv131').style.display = 'none'
 
   if (kv4 == 0) {
-    // document.getElementById('apDiv121').style.display = 'none'
     document.getElementById('apDiv122').style.display = 'block'
     del121()
-    // document.getElementById('apDiv130').style.display = 'none'
-    // document.getElementById('row1').style.display = 'none'
-    // document.getElementById('row2').style.display = 'none'
     if (window.innerWidth < 526) document.getElementById('apDiv116').style.display = 'none'
     document.getElementById('apDiv116').innerHTML = 'Законы Мерфи'
     $("#apDiv116").animate({opacity: "1"}, 1200)
@@ -358,19 +318,9 @@ function tx4(kv4) {
     const rand = randomInteger(0, 18)
     document.getElementById('apDiv4').innerHTML = merfTxt[rand].txt1
     document.getElementById('apDiv5').innerHTML = merfTxt[rand].txt2
-
-    // $.ajax(
-    // 	{
-    // 		url: "txtm.php",
-    // 		success: function (mr) {
-    // 			document.getElementById('apDiv4').innerHTML = mr.split(">")[1];
-    // 			document.getElementById('apDiv5').innerHTML = mr.split(">")[0];
-    // 		}
-    // 	});
   }
 
   if (kv4 == 1) {
-    // document.getElementById('apDiv121').style.display = 'none'
     document.getElementById('apDiv122').style.display = 'block'
     del121()
     if (window.innerWidth < 526) document.getElementById('apDiv116').style.display = 'none'
@@ -440,24 +390,10 @@ function tx4(kv4) {
       "Трудно заставить человека понять что-либо, если его заработок обеспечивается непониманием этого.",
       "За исключением цифр, нет ничего более обманчивого, чем факты.",
     ]
-
     document.getElementById('apDiv143').innerHTML = kl11[rand]
-
-    // $.ajax(
-    // 	{
-    // 		url: "txt1.php",
-    // 		cache: false,
-    // 		type: "GET",
-    // 		data: { 'id': kl },
-    // 		eId: mm,
-    // 		success: function (html) {
-    // 			document.getElementById(this.eId).innerHTML = html;
-    // 		}
-    // 	});
   }
 
   if (kv4 == 2) {
-    // document.getElementById('apDiv121').style.display = 'none'
     document.getElementById('apDiv122').style.display = 'block'
     del121()
     if (window.innerWidth < 526) document.getElementById('apDiv116').style.display = 'none'
@@ -467,15 +403,6 @@ function tx4(kv4) {
     document.getElementById("apDiv117").style.opacity = '0'
     $("#apDiv117").animate({opacity: "1"}, 1200)
   }
-  /*
-        if (kv4 == 3) {
-          document.getElementById('apDiv116').innerHTML = 'Тесты'
-          $("#apDiv116").animate({opacity: "1"}, 1200)
-          document.getElementById('apDiv133').style.display = 'block'
-          document.getElementById("apDiv133").style.opacity = '0'
-          $("#apDiv133").animate({opacity: "1"}, 1200)
-        }
-  */
 
   if (kv4 == 4) {
     document.getElementById('apDiv122').style.display = 'none'
@@ -532,10 +459,9 @@ function tx4(kv4) {
         tt1 = setInterval(uss2, 3600)
       }
     }
-  } // kv4 == 4
+  }
 
   if (kv4 == 5 || kv4 == 6) {
-    // document.getElementById('apDiv121').style.display = 'none'
     document.getElementById('apDiv122').style.display = 'block'
     document.getElementById('pusk').style.display = 'block'
     del121()
@@ -563,29 +489,8 @@ function tx4(kv4) {
     document.getElementById("apDiv149").style.opacity = '0'
     $("#apDiv149").animate({opacity: "1"}, 1200)
   }
+}
 
-  /*
-        if (kv4 == 7) {
-          document.getElementById('apDiv116').innerHTML = 'Как избавиться от НИЩЕТЫ ?'
-          $("#apDiv116").animate({opacity: "1"}, 1200)
-
-          /!*	if (kv4 == 7) {
-            clearInterval(tt1);
-            trr = 0;
-            $("#apDiv131").animate({opacity: "0"}, 1200);
-              function uss3() {
-              document.getElementById('apDiv131').style.display = 'none';
-              }
-            tt2 = setTimeout(uss3,2400);
-            }
-          *!/
-          document.getElementById('apDiv9').style.display = 'block'
-          document.getElementById("apDiv9").style.opacity = '0'
-          $("#apDiv9").animate({opacity: "1"}, 1200)
-        }
-  */
-
-}  // tx4
 function tx2(n2) {
   if (n2 == 5) {
     document.getElementById("ot1").value = ''
@@ -613,10 +518,7 @@ function tx2(n2) {
 window.vp1 = 35
 
 function tx1(n1) {
-  // document.getElementById('txs').src = 'texstr.html'
-  // document.getElementById('footer').style.backgroundImage = 'url("img/101_6.png")'
   document.getElementById('body').style.backgroundImage = 'url("img/101.png")'
-  // document.getElementById('apDiv112').style.backgroundImage = 'url("img/101_6.png")'
   document.getElementById('apDiv113').style.color = 'white'
   document.getElementById('apDiv114').style.color = 'white'
 
@@ -657,7 +559,6 @@ function tx1(n1) {
     }
     if (aa1 == 'pr5') {
       document.getElementById('apDiv551').style.display = 'block'
-      // document.getElementById('apDiv551').style.display = 'none'
       document.getElementById('sts1').innerHTML = '№1'
       document.getElementById('sts2').innerHTML = '---'
       document.getElementById('sts3').innerHTML = '№2'
@@ -678,15 +579,12 @@ function tx1(n1) {
       } else {
         document.getElementById('apDiv74').style.display = 'block'
       }
-    }  //pr5
+    }
 
     if (aa1 == 'pr6') {
       document.getElementById('apDiv651').style.display = 'none'
       document.getElementById('apDiv541').style.display = 'none'
       document.getElementById('apDiv551').style.display = 'block'
-      // document.getElementById('apDiv551').style.display = 'none'
-      // document.getElementById('apDiv541').style.height = '24px'
-      // document.getElementById('apDiv541').style.top = '64px'
       document.getElementById('sts1').innerHTML = '->'
       document.getElementById('sts2').innerHTML = '№...'
       document.getElementById('sts3').innerHTML = '->'
@@ -748,7 +646,6 @@ function tx1(n1) {
     })
     document.getElementById("apDiv12").style.display = "none"
     document.getElementById("apDiv38").style.display = "block"
-    // $('#apDiv38').show(600, function () {})
 
     if (document.getElementById("qv1").value == '') {
       document.getElementById('apDiv42').innerHTML = "Вы не заполнили вопрос. Из-за этого правильность ответа будет несколько ниже (в любом случае, не забудьте задуманный вопрос)..."
@@ -815,8 +712,9 @@ function tx1(n1) {
     document.getElementById('apDiv651').style.width = '0px'
 
     var i = 0
-    if (kk1 == 0) {
+    if (kk1 === 0) {
       function us2() {
+        if (kk1 === 1) return
         bv11 = 0, bv21 = 0, bv31 = 0
         for (n = 1; n < 100; n++) {
           var bv = Math.floor(Math.random() * 3)
@@ -835,16 +733,11 @@ function tx1(n1) {
         document.getElementById('apDiv541').style.width = bv11 * mult + 'px'
         document.getElementById('apDiv551').style.width = bv21 * mult + 'px'
         document.getElementById('apDiv651').style.width = bv31 * mult + 'px'
-        /*
-                document.getElementById('apDiv541').style.width = bv11 * 5 + 'px'
-                document.getElementById('apDiv551').style.width = bv21 * 5 + 'px'
-                document.getElementById('apDiv651').style.width = bv31 * 5 + 'px'
-        */
       }
 
       tim1 = setInterval(us2, 100)
     }
-  } // != 31
+  }
 
   if (n1 == 31) {
 
@@ -923,16 +816,13 @@ function tx1(n1) {
     document.getElementById('apDiv74').style.display = 'none'
 
     $("#apDiv44").animate({opacity: "0"}, 300)  //матрас
-    $('#apDiv46').hide(100, function () {
-    })  //пирамида
+    $('#apDiv46').hide(100, function () {})  //пирамида
 
     $("#apDiv59").animate({opacity: "0"}, 0)
     $("#apDiv62").animate({opacity: "0"}, 0)
     $("#apDiv65").animate({opacity: "0"}, 0)
     $("#apDiv67").animate({opacity: "0"}, 0)
-    $('#apDiv71').show(100, function () {
-      // $('#apDiv71').show(1200, function () {
-    })
+    $('#apDiv71').show(100, function () {})
 
     clearInterval(tim1)
     clearInterval(tim3)
@@ -949,15 +839,12 @@ function tx1(n1) {
     }
 
     const widthScreen = window.innerWidth
-    // console.log('DDD', window.innerWidth)
-
     let heightLine = '23px'
     if (window.innerWidth < 526) {
       heightLine = '8px'
     }
 
     document.getElementById('apDiv551').style.height = heightLine
-    // document.getElementById('apDiv541').style.height = heightLine
     if (aa1 == 'pr5') {
       document.getElementById('apDiv551').style.height = '0'
     } else {
@@ -967,8 +854,6 @@ function tx1(n1) {
 
     if (aa1 == 'pr6') {
       document.getElementById('apDiv551').style.height = heightLine
-      // document.getElementById('apDiv541').style.height = heightLine
-      // document.getElementById('apDiv551').style.height = '0px'
       document.getElementById('apDiv651').style.height = '0px'
     }
     var from = 0
@@ -1006,44 +891,15 @@ function tx1(n1) {
         }
       }
       , 10)  // setTimeout
+
     setTimeout(() => {
       $('#apDiv72').show(1200, function () {
       })
     }, 8600)
-
-    console.log('<>1', b1, b2, b3)
-
-  }  //n1 == 31
+  }
 
   var b5, b6
   var bb = 100
-
-  /*
-      if (b1 == b3) {
-        alert('Oops - это ошибка. Повторите действие!')
-        var b11 = b1
-        var b31 = b3
-        for (i2 = 0; i2 < 100; i2++) {
-          var b = Math.floor(Math.random() * 2)
-          if (b == 0) {
-            b1++
-          }
-
-          if (b == 1) {
-            b3++
-          }
-
-        }
-        if (b3 > b1) {
-          b1 = b1 - 1
-          b3 = b3 + 1
-        } else {
-          b1 = b1 + 1
-          b3 = b3 - 1
-        }
-        var b2 = 100 - (b1 + b3)
-      }
-  */
   var b1 = 19, b2 = 39, b3 = 41
   console.log('<>2', b1, b2, b3)
   var b1a = b1, b2a = b2, b3a = b3
@@ -1052,10 +908,12 @@ function tx1(n1) {
     b5 = 0
     b6 = b1
   }
+
   if (b4 == b2) {
     b5 = 1
     b6 = b2
   }
+
   if (b4 == b3) {
     b5 = 2
     b6 = b3
@@ -1140,7 +998,6 @@ function tx1(n1) {
       if (kls == "13" || kls == "12") kls = "11"
       if (klr == "13" || klr == "12") klr = "11"
       if (kli == "13" || kli == "12") kli = "11"
-      // console.log('klv=', klv, 'b5=', b5, 'v=', v)
       var mm = 'apDiv48'
       const kv = [
         [
@@ -1191,76 +1048,11 @@ function tx1(n1) {
           ],
         ],
       ]
-      console.log('<>3', v, kv)
-      /*
-      const kv1 = [
-        [
-          "Скорее всего нет.",
-          "Нет, хотя и не безспорно."
-        ],
-        [
-          "Нет, и это несомненно.",
-          "Думаю, нет.",
-          "Сожалею, но нет."
-        ],
-        [
-          "Нет, нет и еще раз нет.",
-          "Конечно нет. Я уверен в этом.",
-          "Конечно нет. Я не сомневаюсь в этом.",
-          "Конечно нет. Без вариантов.",
-          "Конечно нет, и это правда."
-        ]
-      ]
-      const kv2 = [
-        [
-          "Непонятно, но скорее 'нет', чем 'да'."
-        ],
-        [
-          "Ничего сейчас не ясно."
-        ],
-        [
-          "Непонятно, но скорее 'да', чем 'нет'.	"
-        ]
-      ]
-      const kv3 = [
-        [
-          "Да, хотя и с некоторыми сомнениями.",
-          "Скорее всего да."
-        ],
-        [
-            "Да. Это точно.",
-            "Да. Безусловно.",
-            "Да. Безспорно.	"
-        ],
-        [
-          "Конечно да. Я уверен.",
-          "Конечно да. Я абсолютно уверен.",
-          "Конечно да. Я совершенно уверен.",
-          "Конечно да. Без тени сомнений.",
-          "Конечно да. Я ручаюсь."
-        ]
-      ]
-*/
-      // const v1 = randomInteger(1, 3)
       const kvv = kv[b5][v - 1]
       const idx = randomInteger(0, kvv.length - 1)
-      // console.log('>0', idx, kvv)
       const rand_v = kv[b5][v - 1][idx]
-      // console.log('>>>>', idx, kv, kv[b5], kv[b5][v-1], rand_v)
       document.getElementById('apDiv48').innerHTML = rand_v
-
-      // $.ajax(
-      // 	{
-      // 		url: "txtv.php",
-      // 		cache: false,
-      // 		type: "GET",
-      // 		data: { 'id': klv },
-      // 		eId: mm,
-      // 		success: function (html) {
-      // 			document.getElementById(this.eId).innerHTML = html;
-      // 		}
-      // 	});
-    }  //if pr1 pr2 pr3
+    }
 
     var um1 = Math.floor(Math.random() * 3) + 1
     var mm = 'apDiv51'
@@ -1310,25 +1102,7 @@ function tx1(n1) {
     ]
     const rand1 = randomInteger(0, 2)
     const rand11 = randomInteger(0, kl1[rand1].length - 1)
-
-    // document.getElementById('apDiv51').style.opacity = "0"
-    // document.getElementById('apDiv51').style.display = "none"
     document.getElementById('apDiv51').innerHTML = kl1[rand1][rand11]
-    // $('#apDiv51').animate({ opacity: "1" }, 1600);
-    // document.getElementById('apDiv51').style.display = "block"
-
-    // $.ajax(
-    // 	{
-    // 		url: "txt1.php",
-    // 		cache: false,
-    // 		type: "GET",
-    // 		data: { 'id': kl },
-    // 		eId: mm,
-    // 		success: function (html) {
-    // 			document.getElementById(this.eId).innerHTML = html;
-    // 		}
-    // 	});
-
     document.getElementById('apDiv52').innerHTML = ko1
 
     var um2 = Math.floor(Math.random() * 3) + 1
@@ -1403,18 +1177,6 @@ function tx1(n1) {
     const rand2 = randomInteger(0, 2)
     const rand12 = randomInteger(0, kl1[rand2].length - 1)
     document.getElementById('apDiv53').innerHTML = kl2[rand2][rand12]
-
-    // $.ajax(
-    // 	{
-    // 		url: "txt1.php",
-    // 		cache: false,
-    // 		type: "GET",
-    // 		data: { 'id': kl },
-    // 		eId: mm,
-    // 		success: function (html) {
-    // 			document.getElementById(this.eId).innerHTML = html;
-    // 		}
-    // 	});
     document.getElementById('apDiv54').innerHTML = ko2
 
     var um3 = Math.floor(Math.random() * 3) + 1
@@ -1470,19 +1232,6 @@ function tx1(n1) {
     const rand3 = randomInteger(0, 2)
     const rand13 = randomInteger(0, kl3[rand3].length - 1)
     document.getElementById('apDiv55').innerHTML = kl3[rand3][rand13]
-
-    // $.ajax(
-    // 	{
-    // 		url: "txt1.php",
-    // 		cache: false,
-    // 		type: "GET",
-    // 		data: { 'id': kl },
-    // 		eId: mm,
-    // 		success: function (html) {
-    //
-    // 			document.getElementById(this.eId).innerHTML = html;
-    // 		}
-    // 	});
     document.getElementById('apDiv56').innerHTML = ko3
 
     var um4 = Math.floor(Math.random() * 3) + 1
@@ -1541,27 +1290,8 @@ function tx1(n1) {
     const rand4 = randomInteger(0, 2)
     const rand14 = randomInteger(0, kl4[rand4].length - 1)
     document.getElementById('apDiv57').innerHTML = kl4[rand4][rand14]
-
-    // $.ajax(
-    // 	{
-    // 		url: "txt1.php",
-    // 		cache: false,
-    // 		type: "GET",
-    // 		data: { 'id': kl },
-    // 		eId: mm,
-    // 		success: function (html) {
-    // 			document.getElementById(this.eId).innerHTML = html;
-    // 		}
-    // 	});
-
     document.getElementById('apDiv58').innerHTML = ko4
-    // document.getElementById('nd14').value = ko4;
-/*
-    document.getElementById('rot').style.display = 'none'
-*/
-    // document.getElementById('rot1').style.display = 'block'
-  } // us1
-
+  }
   //todo use
   /*
         hoverr('#apDiv59', '#apDiv51', '#apDiv52')
@@ -1569,6 +1299,5 @@ function tx1(n1) {
         hoverr('#apDiv65', '#apDiv55', '#apDiv56')
         hoverr('#apDiv67', '#apDiv57', '#apDiv58')
   */
-
-} // func tx1
+}
 

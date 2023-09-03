@@ -19,7 +19,6 @@
   text-align: center;
   width: 100vw;
   font-size: 10px;
-/ / 1.8 vw;
   left: 0;
 }
 
@@ -28,20 +27,17 @@
   left: 0;
   top: 237px;
   width: 100vw;
-  /*margin: 0 auto;*/
 }
 
 #rot {
   width: 193px;
   height: 153px;
-  /*margin-top: 38px;*/
 }
 
 #apDiv452 {
   margin: 0 auto;
   top: -38px;
   width: 100vw;
-  /*height: 152px;*/
 }
 
 #apDiv45 {
@@ -69,10 +65,8 @@
 #apDiv28 {
   /*text-align: center !important;*/
   width: 32vw;
-/ / 100 vw;
   left: auto;
   top: -13px;
-/ / 353 px;
   border: 1px solid;
   border-radius: 15px;
   right: -32vw;
@@ -81,14 +75,11 @@
   background-color: #DCC5EF;
   display: flex;
   align-items: center !important;
-  /*padding: 0 5px;*/
 }
 
 #apDiv28 > h4 {
   padding-right: 5px;
-/ / 25;
   padding-left: 5px;
-/ / 25;
   text-align: center;
   margin-bottom: 0 !important;
 }
@@ -98,15 +89,12 @@
   width: 313px;
   margin: 0 5px;
   padding: 7px 5px 16px 5px;
-  /*overflow: scroll;*/
-  /*word-wrap: break-word;*/
   height: 32px;
   right: -11px;
 }
 
 #apDiv31 {
   top: 481px;
-/ / 513 px;
   left: 20px;
 }
 
@@ -114,7 +102,6 @@
   right: 10px;
   top: 25px;
   left: auto;
-  /*width: 67vw;*/
 }
 
 #apDiv73 {
@@ -130,7 +117,6 @@
 }
 
 #apDiv44 {
-  /*position: relative;*/
   top: 146px;
   left: 0;
   width: 100vw;
@@ -191,14 +177,6 @@
   font-size: 2em;
 }
 
-/*
-    .text {
-      width: 189px;
-      height: 126px;
-      z-index: 49 !important;
-      !*border: 1px solid;*!
-    }
-*/
 .text1 {
   left: 4.5vw !important;
   top: 2.5vw !important;
@@ -310,7 +288,6 @@
   right: -15px;
   top: 50px;
   width: 317px;
-  /*height: 111px;*/
   z-index: 20;
   -webkit-background-size: cover;
   background-size: cover;
@@ -326,10 +303,8 @@
   right: -16px;
   height: 457px;
   display: none;
-  /*-webkit-background-size: contain;*/
   background-size: 319px 457px !important;
   background: url(../img/svitok_k79.png) no-repeat;
-  /*margin: 0 auto;*/
   z-index: 54;
 }
 
@@ -365,8 +340,6 @@
   left: 0;
   position: relative !important;
   margin: 0 auto;
-  /*top: -27px !important;*/
-  /*background: #FFFF00;*/
 }
 
 #apDiv147 {
@@ -410,7 +383,6 @@
 #apDiv116 {
   width: 261px;
   font-size: 14px;
-  /*right: 0 !important;*/
   text-align: center;
   left: 33px;
 }
@@ -442,7 +414,6 @@
   width: 256px !important;
   left: 3vw !important;
   height: 221px !important;
-  /*top: -194px !important;*/
 }
 
 .zg146 {
